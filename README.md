@@ -14,10 +14,10 @@ This module alters the site information form and returns the json response of gi
 
 5. Site API key data saved as a variable siteapikey. 
 
-6. JSON representation of a node data can be found at /page_json/{api_key}/{node_id}
+6. JSON representation of a node data can be found at /page_json/{api_key}/{node}
 
     - {api_key}: It refers to 'Site API Key' saved in site configuration.
     
-    - {node_id}: Node id of a node with content type 'Page'
+    - {node}: Node id of node
     
-    In case {api_key} is wrong or {node_id} is not related to 'Page' content type, it will render 'Access Denied' Page.
+    In case {api_key} is wrong or {node} is not related to 'Page' content type, it will render 'Access Denied' Page.
