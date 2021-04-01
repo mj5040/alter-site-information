@@ -37,6 +37,6 @@ class CustomController extends ControllerBase {
       'body' => $node->get('body')->getValue()[0]['value'],
     ];
     return new JsonResponse($data);
-    }
+  }
 
 }
