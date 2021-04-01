@@ -1,7 +1,11 @@
 custom.json_page:
-  path: '/page_json/{api_key}/{node_id}'
+  path: '/page_json/{api_key}/{node}'
   defaults:
     _controller: '\Drupal\custom\Controller\CustomController::content'
     _title: 'JSON representation of a given node'
-  requirements: 
+  requirements:
     _access: 'TRUE'
+  options:
+    parameters:
+      node:
+        type: entity:node

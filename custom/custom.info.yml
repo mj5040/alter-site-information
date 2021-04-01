@@ -1,5 +1,5 @@
 name: Custom Module
 type: module
-description: This Module alter the existing Drupal site information form.
+description: Custom Module to alter the existing Drupal site information form.
 package: Custom
 core: '8.x'
